@@ -62,7 +62,8 @@ body {
   display: none;
 }
 #result {
-  position: fixed;
+  justify-items: center;
+  position:fixed;
   top: 10%; 
   left: 10%;
   transform: translate(-50%, -50%);
@@ -95,6 +96,7 @@ body {
 }
 .hidden {
   display: none;
+  
 }
 .title {
   text-align: center;
