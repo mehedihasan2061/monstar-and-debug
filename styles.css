@@ -77,10 +77,12 @@ body {
 }
 
 .blog{
-  text-decoration: none;
-  color: white;
   text-align: center;
-  /* margin: auto; */
+}
+.blog-item{
+  text-decoration: none;
+    color: white;
+    
 }
 #show-time{
   text-align: center;
@@ -202,4 +204,10 @@ button {
     flex-direction: column;
     
   }
+  /* small device  */
+    @media only screen and (max-width: 600px) {
+      #histories {
+          grid-template-columns: auto;
+      }
+    }
 }
